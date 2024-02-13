@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:linear-gradient(to right, rgba(169, 214, 117, 0), rgb(121, 112, 33));
+}
+#navigation {
+height: 40px;
+width: 100%;
+background-color: rgb(233, 72, 72);
+top: 0%;
+}
+
+.nav {
+    display: inline;
+    background-color: rgb(233, 72, 72);
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-left: 75px;
+    margin-right: 85px;
+    height: 10px;
+    width: 100%;
+}
+
+#text {
+    text-align: center;
+    top: 50%;
+}
+#para {
+    text-align:inherit;
+}
+#button{
+    padding-top: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 10px;
+    border: 1px solid;
+    color: white;
+    background-color: rgb(221, 83, 83);
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .vertical-images {
+    display: flex;
+    flex-direction: column;
+  }
+   #qwert {
+    position: relative;
+    padding-left: 10px;
+    left: 150px;
+    top: 70px;
+   }
+
+   #button2 {
+    text-align: center;
+    left: 50px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color:rgb(241, 108, 108) ;
+   }
